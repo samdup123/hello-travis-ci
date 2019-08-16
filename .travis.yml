@@ -1,4 +1,5 @@
 language: c
-  script:
-    - make hello-world
-    - ./hello-world
+sudo: false # only for faster builds
+script:
+  - make hello-world
+  - ./hello-world
